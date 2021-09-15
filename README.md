@@ -1,19 +1,11 @@
 # vue-cli-bug-repro
 
-## Project setup
-```
-yarn install
-```
+## Steps
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+1. Run `vue upgrade --next` with the latest version vue-cli
+2. Confirm and upgrade all deps
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## Error
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+`src/constants/index.js` is deleted unexpectedly.
+
